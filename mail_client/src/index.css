@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overflow {
+    overflow: auto; /* קביעת התכונה overflow ל-auto או ל-scroll כרצונך */
+  }
+  ::-webkit-scrollbar {
+    /* background-color: aliceblue; */
+    width: 8px;
+    border-radius: 20px;
+  }
+  
+  /* צבע המחוון (thumb) של הפס האנכי */
+  ::-webkit-scrollbar-thumb {
+    background-color: #08a48c;
+  }
+
